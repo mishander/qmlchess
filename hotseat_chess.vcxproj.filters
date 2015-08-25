@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{35d51e4d-1ad0-402a-9abc-7a40d2879e55}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e8e4a1b1-214b-443f-8901-ec06b2528e00}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\ChessPieces">
+      <UniqueIdentifier>{c9b5b8f5-64e8-45d2-acc8-76c42b35d5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\qml">
+      <UniqueIdentifier>{d11b4047-61aa-4c37-acc4-5008a7013688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{ee0feae0-26de-4baf-bbd8-bcf51aa63adf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\boardmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chessapplicaton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\chesspiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_boardmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_boardmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\bishoppiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\kingpiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\knightpiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\pawnpiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\queenpiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\rookpiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\utils.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\boardmodel.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qml\CellDelegate.qml">
+      <Filter>Resource Files\qml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qml\ChessBoard.qml">
+      <Filter>Resource Files\qml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qml\main.qml">
+      <Filter>Resource Files\qml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\bishop_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\bishop_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\king_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\king_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\knight_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\knight_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\pawn_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\pawn_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\queen_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\queen_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\rook_black.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\rook_white.png">
+      <Filter>Resource Files\images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qml\qml.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ChessPieces\chesspiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chessapplicaton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\bishoppiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\kingpiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\knightpiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\pawnpiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\queenpiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\rookpiece.h">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
